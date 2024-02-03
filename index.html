@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Challege </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div >
+            <h1><img class="imagen" src="img/alura.png"> </h1>
+        </div>
+    </header>
+
+<main>
+    <div class="container">
+        <textarea id="texto" placeholder="Ingrese el texto aquí"></textarea>
+        <div>
+            <p class="observacion"> &#10071; Solo se aceptan minúsculas y espacios</p> 
+            <button class="boton-encriptar" onclick="encriptarTexto()">Encriptar</button>
+            <button class="boton-blanco" onclick="desencriptarTexto()">Desencriptar</button>
+        </div>
+    </div>
+    <div class="resultado">
+        <textarea  id="resultado" placeholder="Ningun mensaje fue encontrado. Ingresa el texto que deseas encriptar o desencriptar" readonly></textarea>
+        <button class="boton-blanco" onclick="copiarTexto()">Copiar</button>
+    </div>
+</main>
+<footer>
+    <p class="piepagina"> Realizado por: Fany Daniela Ucles Amaya -Grupo #6 Alura + ONE 2024</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

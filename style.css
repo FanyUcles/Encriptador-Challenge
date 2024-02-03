@@ -1,0 +1,119 @@
+.imagen{
+    width: 30px;
+    position: absolute;
+    left: 5%;
+
+    }
+
+body {
+
+    margin: 0;
+    padding: 0;
+    background:url(img/fondo.jpg);
+}
+
+.container {
+    width: 50%;
+    margin: 70px 60px;
+    padding: 20px;
+    background-color: #ffffff77;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    box-sizing: border-box; 
+    vertical-align: top; 
+    }
+    
+.resultado{
+    width: 30%;
+    margin: 70px 60px;
+    padding: 20px;
+    background-color:  #ffffff77;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
+#resultado{
+    font-weight: bold; 
+    text-align: center;
+}
+
+textarea {
+    width: 100%;
+    height: 320px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.observacion{
+    font-style: italic;
+    color: rgb(255, 255, 255);
+}
+
+
+.boton-encriptar{
+    width: 30%;
+    padding: 10px 15px;
+    font-size: 15px;
+    font-weight: bold;
+    color:white;
+    background-color:#112b47;
+    border:none;
+    border-radius: 10px;
+    transition: 2s all;
+    cursor: pointer;
+    margin: 0 10px;
+
+}
+
+.boton-encriptar:hover{
+    background-color: #06478d;;
+    transform: scale(1.20);
+}
+
+.boton-blanco{
+    width: 30%;
+    padding: 10px 15px;
+    font-size: 15px;
+    font-weight: bold;
+    color:#112b47;
+    background-color:white;;
+    border: 1px solid #112b47 ;
+    border-radius: 10px;
+    transition: 2s all;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.boton-blanco:hover{
+    background-color: #c1d0e0;;
+    transform: scale(1.20);
+}
+
+.piepagina{
+    background-color: white;
+    color: #112b47;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    margin: 5px 70px;
+}
+
+@media only screen and (max-width: 480px) {
+    .caja {
+        width: 10%; 
+    }
+
+    .container, .resultado {
+        width: 70%; 
+    }
+
+    .boton-encriptar, .boton-blanco {
+        width: 100%; 
+        margin: 5px 0; 
+    }
+}
